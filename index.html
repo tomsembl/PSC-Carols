@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>PSC Carols</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/roboto-font@0.1.0/css/fonts.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins&display=swap" rel="stylesheet">
     <!-- Google tag (gtag.js) -->
@@ -31,15 +32,20 @@
             box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
             text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
         }
+        max-width-500 {
+            max-width: 500px !important;
+        }
 
     </style>
 
 </head>
 
 <body>
-    <button class="button is-link link" onclick='window.location.href = "https://www.facebook.com/perthsymphonicchorus"'>
-        Facebook Page
-    </button>
+    <div class="is-flex is-flex-direction-row">
+        <button class="button is-link link" onclick='window.location.href = "https://www.facebook.com/perthsymphonicchorus"'>
+            Facebook Page
+        </button>
+    </div>
     <div class="card has-background-white m-1">
         <img src="https://cdn.vectorstock.com/i/500p/14/09/christmas-banner-with-presents-and-fir-tree-vector-54351409.jpg" alt="christmas banner" style="width: 100%; height: auto; clip-path: inset(0 0 50% 0); margin-bottom: -25%; border-radius: 12px;">
         <h1 class="title has-text-centered has-text-danger mb-0">Perth Symphonic Chorus<br><span class="has-text-success">Carols Concert 2024</span></h1>
@@ -47,12 +53,12 @@
     </div>
     <!-- <h2 class="title has-text-centered">Carols Lyrics</h2><br> -->
     <div class="content is-flex is-justify-content-center m-2">
-        <ol  type="1">
+        <ol  type="1" class="ml-5">
             <br>
             <hr>
-            <li>
-                <h4>It's the Most Wonderful Time of the Year</h4>
-                <p>
+            <li class="is-size-4">
+                <h4 class="is-size-4">It's the Most Wonderful Time of the Year</h4>
+                <p class="is-size-5">
                     It's the most wonderful time of the year<br>
                     With the kids jingle belling<br>
                     And everyone telling you be of good cheer<br>
@@ -95,9 +101,9 @@
             </li>
             <br>
             <hr>
-            <li>
-                <h4>Hark! The Herald Angels Sing</h4>
-                <p>
+            <li class="is-size-4">
+                <h4 class="is-size-4">Hark! The Herald Angels Sing</h4>
+                <p class="is-size-5">
                     Hark! The herald-angels sing<br>
                     "Glory to the newborn king;<br>
                     Peace on earth and mercy mild,<br>
@@ -137,7 +143,7 @@
         </ol>
         <br>
     </div>
-    <div class="content has-text-centered">
+    <div class="content has-text-centered is-size-5">
         <p>James Pratt - Conductor</p>
         <p>Caroline Badnall - Piano<br>
         <hr>
